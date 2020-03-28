@@ -46,6 +46,10 @@ All the Internet transmissions in this app are all from/to the DUFE Baiguo Cloud
 
 - ``serviceType = 6`` link resolve
 
+- Notification intent jump
+
+- Optimization for the dashboard user interface
+
 ## At the end
 
 If you have any problem or want to report bug while using this app, please contact me or post issues. If you have logcat, please post the exception track to me.
