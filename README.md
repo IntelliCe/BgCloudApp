@@ -6,7 +6,7 @@
 
 ## Download
 
-Click [here](http://baidu.com) to download the latest release.
+Click [here](https://github.com/IntelliCe/BgCloudApp/releases) to download the latest release.
 
 ## About this app
 
