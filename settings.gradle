@@ -1,0 +1,2 @@
+rootProject.name='白果云'
+include ':app'

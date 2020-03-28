@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="28dp"
+    android:background="@drawable/solid_dialog_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新建下载"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTheme1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="默认下载路径：内部存储/Download/BgCloud"
+        android:textSize="14sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="#f0f0f0"
+        app:hintTextColor="@color/colorTheme1"
+        app:boxStrokeColor="@color/colorTheme1"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_file_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/cursor_white_transparent"
+            android:maxLines="1"
+            android:text="download_file.format"
+            android:hint="文件名" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bt_neg"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            style="?attr/materialButtonOutlinedStyle"
+            app:strokeColor="#d0d0d0"
+            android:letterSpacing="0.0"
+            android:textColor="@color/colorTheme1"
+            android:text="取消"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bt_pos"
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:letterSpacing="0.0"
+            android:text="下载"/>
+
+    </LinearLayout>
+
+</LinearLayout>
