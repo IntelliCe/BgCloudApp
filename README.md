@@ -2,8 +2,6 @@
 
 **A third party app of DUFE Baiguo Cloud Class.**
 
-**A dedicated app for Lily.**
-
 ## Download
 
 Click [here](https://github.com/IntelliCe/BgCloudApp/releases) to download the latest release.
